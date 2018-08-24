@@ -19,6 +19,18 @@
     {
       "todo": "Learn redux",
       "id": 5
+    },
+    {
+      "todo": "step",
+      "id": 6
+    },
+    {
+      "todo": "polaroid",
+      "id": 7
+    },
+    {
+      "todo": "shutdown my pc",
+      "id": 8
     }
   ],
   "users": [

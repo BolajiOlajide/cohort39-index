@@ -18,17 +18,15 @@ const addTodoAction = (payload) => ({
     payload
 });
 
-export const getAllTodos = (dispatch) => axios
+export const getAllTodos = () => (dispatch) => axios
     .get(`${BASE_URL}/todos`)
     .then(res => {
-        console.log(res);
         return dispatch(getTodosAction(res.data));
     });
 
 
-export const addTodo = (dispatch) => axios
-    .post(`${BASE_URL}/todos`)
+export const addTodo = todo => (dispatch) => axios
+    .post(`${BASE_URL}/todos`, { todo })
     .then(res => {
-        console.log(res);
         return dispatch(addTodoAction(res.data));
     });
