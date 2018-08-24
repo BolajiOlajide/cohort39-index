@@ -1,0 +1,30 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "todo": "Brush my teeth"
+    },
+    {
+      "id": 2,
+      "todo": "Go to work"
+    },
+    {
+      "id": 3,
+      "todo": "Wash my clothes"
+    },
+    {
+      "todo": "Jump on a call",
+      "id": 4
+    },
+    {
+      "todo": "Learn redux",
+      "id": 5
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Bolaji Olajide"
+    }
+  ]
+}
